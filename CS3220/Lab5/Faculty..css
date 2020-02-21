@@ -1,0 +1,25 @@
+table { 
+/*No gap between cell borders*/
+border-collapse: collapse;
+}
+
+
+th{
+    border-bottom: 3px solid black;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+
+.td1{
+border-bottom:1px solid black;
+}
+
+.bottom{
+
+border-bottom: 5px double black;
+
+}
+
+

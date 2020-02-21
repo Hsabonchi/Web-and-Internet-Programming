@@ -1,0 +1,35 @@
+
+a{
+text-decoration: none;
+}
+
+
+form{
+border:1px solid black; 
+width: 30%;
+padding:1em; 
+}
+
+.bold{
+font-weight: bold;
+
+}
+
+div div div {
+
+ display: inline-block;
+  width: 125px;
+}
+
+div div{
+padding:1px; 
+}
+
+button{
+font-size:1.2em; 
+
+}
+form >div {
+margin-bottom: 3px;
+
+}

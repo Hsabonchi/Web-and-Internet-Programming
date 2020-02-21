@@ -1,0 +1,42 @@
+#p1{
+background-color: black;
+color: aliceblue;
+text-align: right;
+font-size:small; 
+
+}
+
+
+#veralgn{
+
+    vertical-align: middle;
+    
+
+}
+#sp2{
+font-size: bold;
+text-align:left; 
+}
+p{
+text-indent:10px; 
+}
+
+
+#sp3{
+color:gold;
+}
+
+#nav1{
+background-color: gold;
+text-align: left;
+text-transform: uppercase;
+
+}
+
+footer{
+background-color: black;
+color: aliceblue;
+text-align:center;
+font-size:small;  
+
+}

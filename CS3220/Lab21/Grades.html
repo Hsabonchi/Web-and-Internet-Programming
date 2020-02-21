@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grades</title>
+<style>
+  td { text-align: center;}
+</style>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script> 
+
+
+$(document).ready(function(){
+
+
+$( "td.td" ).dblclick(function() {
+    var elem=$( this ).html("<input  id='a'>")
+      $("#a").blur(function(){
+            var x= $(this).val()
+            $(this).remove()
+            $( elem ).html(x)
+    
+        });       
+});
+  
+
+
+
+$( "td.g" ).dblclick(function() {
+var selectElem= $( this ).html( "<select  id='select' name='grade'> <option value='A'>A</option> <option value='B'>B</option> <option value='C'>C</option></select>")
+                        
+                        $( "#select" ).blur(function(){
+                                var v=$(this).val();
+                                //alert(v)
+                                $( "#select" ).remove()
+                                $(selectElem).html(v)
+                          });
+
+                   });
+
+
+
+
+
+
+
+
+
+    
+    });
+
+</script>
+</head>
+<body>
+<table border="1">
+<tr><th >Name</th><th>Homework 1</th><th>Homework 2</th><th>Grade</th></tr>
+<tr><td class="td">John</td><td class="td">90</td><td class="td">80</td><td class="g">B</td></tr>
+<tr><td class="td">Jane</td><td class="td">90</td><td class="td">100</td><td class="g">A</td></tr>
+</table>
+</body>
+</html>
+
